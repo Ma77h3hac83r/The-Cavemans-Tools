@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "tct",
+  "version": "${version}",
+
+  "name": "The Caveman's Tools",
+  "description": "This is an example description!",
+  "authors": [
+    "Ma77h3hac83r"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ma77.tct.TheCavemansTools"
+    ]
+  },
+  "mixins": [
+    "tct.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

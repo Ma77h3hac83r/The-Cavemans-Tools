@@ -1,0 +1,26 @@
+{
+  "item.tct.dagger": "Dagger",
+  "item.tct.bow": "Bow",
+  "item.tct.arrow": "Arrow",
+
+  "item.tct.pickaxe": "Pickaxe",
+  "item.tct.shovel": "Shovel",
+  "item.tct.axe": "Axe",
+  "item.tct.trowel": "Trowel",
+
+  "item.tct.bow_handle": "Bow Handle",
+  "item.tct.long_handle": "Long Handle",
+  "item.tct.short_handle": "Short Handle",
+  "item.tct.short_blade": "Short Blade",
+  "item.tct.arrow_head": "Arrow Head",
+  "item.tct.axe_head": "Axe Head",
+  "item.tct.pickaxe_head": "Pickaxe Head",
+  "item.tct.shovel_head": "Shovel Head",
+  "item.tct.binding": "Binding",
+  "item.tct.bowstring": "Bowstring",
+  "item.tct.fletchling": "Fletchling",
+  "item.tct.leaf": "Leaf",
+  "item.tct.shaft": "Shaft",
+  "item.tct.stock": "Stock"
+
+}
