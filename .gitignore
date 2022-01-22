@@ -31,3 +31,12 @@ bin/
 # fabric
 
 run/
+
+# images
+*.png
+*.jpg
+*.jpeg
+
+# textures
+
+textures/

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"Y",
+	"X"
+  ],
+  "key": {
+	"Y": {
+	  "item": "minecraft:cobblestone"
+	},
+	"X": {
+	  "item": "minecraft:flint"
+	}
+  },
+  "result": {
+	"item": "tct:shovel_head"
+  }
+}

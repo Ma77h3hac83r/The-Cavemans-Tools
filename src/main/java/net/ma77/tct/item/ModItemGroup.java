@@ -7,5 +7,5 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    public static final ItemGroup THECAVEMANSTOOLS = FabricItemGroupBuilder.build(new Identifier(TheCavemansTools.MODID, "thecavemanstools"), () -> new ItemStack(ModItems.DAGGER));
+    public static final ItemGroup TCT = FabricItemGroupBuilder.build(new Identifier(TheCavemansTools.MODID, "thecavemanstools"), () -> new ItemStack(ModItems.DAGGER));
 }

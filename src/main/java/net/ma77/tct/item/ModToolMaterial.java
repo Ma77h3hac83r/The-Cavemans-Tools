@@ -1,6 +1,7 @@
 package net.ma77.tct.item;
 
 import net.fabricmc.yarn.constants.MiningLevels;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.tag.ItemTags;
@@ -10,13 +11,11 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
 
-    STONE(MiningLevels.STONE, 131, 4.0f, 1.0f, 5, () -> Ingredient.fromTag(ItemTags.STONE_TOOL_MATERIALS));
-
-    //STONE(MiningLevels.STONE, 131, 4.0f, 1.0f, 5, () -> Ingredient.fromTag(ItemTags.STONE_TOOL_MATERIALS)),
-    //IRON(MiningLevels.IRON, 250, 6.0f, 2.0f, 14, () -> Ingredient.ofItems(Items.IRON_INGOT)),
-    //DIAMOND(MiningLevels.DIAMOND, 1561, 8.0f, 3.0f, 10, () -> Ingredient.ofItems(Items.DIAMOND)),
-    //GOLD(MiningLevels.WOOD, 32, 12.0f, 0.0f, 22, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
-    //NETHERITE(MiningLevels.NETHERITE, 2031, 9.0f, 4.0f, 15, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
+    STONE(MiningLevels.STONE, 150, 4.0f, 1.0f, 5, () -> Ingredient.fromTag(ItemTags.STONE_TOOL_MATERIALS)),
+    COPPER(MiningLevels.IRON, 400, 5.0f, 1.5f, 7, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
+    IRON(MiningLevels.IRON, 800, 6.0f, 2.0f, 8, () -> Ingredient.ofItems(Items.IRON_INGOT)),
+    DIAMOND(MiningLevels.DIAMOND, 1500, 8.0f, 3.0f, 10, () -> Ingredient.ofItems(Items.DIAMOND)),
+    NETHERITE(MiningLevels.NETHERITE, 2000, 10.0f, 4.0f, 15, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;

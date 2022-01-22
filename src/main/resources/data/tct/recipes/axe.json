@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	" Z ",
+	" YZ",
+	"X  "
+  ],
+  "key": {
+	"Z": {
+	  "item": "tct:axe_head"
+	},
+	"Y": {
+	  "item": "tct:binding"
+	},
+	"X": {
+	  "item": "tct:short_handle"
+	}
+  },
+  "result": {
+	"item": "tct:axe"
+  }
+}

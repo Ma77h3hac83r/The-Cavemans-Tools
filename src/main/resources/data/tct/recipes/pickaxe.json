@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	" Z ",
+	" YZ",
+	"X  "
+  ],
+  "key": {
+	"Z": {
+	  "item": "tct:pickaxe_head"
+	},
+	"Y": {
+	  "item": "tct:binding"
+	},
+	"X": {
+	  "item": "tct:long_handle"
+	}
+  },
+  "result": {
+	"item": "tct:pickaxe"
+  }
+}

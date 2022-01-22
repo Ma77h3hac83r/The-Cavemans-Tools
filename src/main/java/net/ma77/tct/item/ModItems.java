@@ -10,31 +10,32 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     // WEAPONS
-    public static final Item DAGGER = registerItem("dagger", new ModSwordItem(ModToolMaterial.STONE, 2, 1f, new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    //public static final Item BOW = registerItem("bow", new ModBowItem(ModToolMaterial.STONE, new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    //public static final Item ARROW = registerItem("arrow", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
+    public static final Item DAGGER = registerItem("dagger", new SwordItem(ModToolMaterial.STONE, 2, 1f, new FabricItemSettings().group(ModItemGroup.TCT)));
+    public static final Item SIMPLE_BOW = registerItem("simple_bow", new BowItem(new FabricItemSettings().group(ModItemGroup.TCT)));
+    //public static final Item ARROW = registerItem("arrow", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
 
     // TOOLS
-    public static final Item PICKAXE = registerItem("pickaxe", new ModPickaxeItem(ModToolMaterial.STONE, 2, 1f, new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    public static final Item SHOVEL = registerItem("shovel", new ShovelItem(ModToolMaterial.STONE, 2, 1f, new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    public static final Item AXE = registerItem("axe", new ModAxeItem(ModToolMaterial.STONE, 2, 1f, new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    public static final Item TROWEL = registerItem("trowel", new ModHoeItem(ModToolMaterial.STONE, 2, 1f, new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
+    public static final Item PICKAXE = registerItem("pickaxe", new ModPickaxeItem(ModToolMaterial.STONE, 2, 1f, new FabricItemSettings().group(ModItemGroup.TCT)));
+    public static final Item SHOVEL = registerItem("shovel", new ShovelItem(ModToolMaterial.STONE, 2, 1f, new FabricItemSettings().group(ModItemGroup.TCT)));
+    public static final Item AXE = registerItem("axe", new ModAxeItem(ModToolMaterial.STONE, 2, 1f, new FabricItemSettings().group(ModItemGroup.TCT)));
+    public static final Item TROWEL = registerItem("trowel", new ModHoeItem(ModToolMaterial.STONE, 2, 1f, new FabricItemSettings().group(ModItemGroup.TCT)));
 
     // PARTS
-    //public static final Item BOW_HANDLE = registerItem("bow_handle", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    public static final Item LONG_HANDLE = registerItem("long_handle", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    public static final Item SHORT_HANDLE = registerItem("short_handle", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    public static final Item SHORT_BLADE = registerItem("short_blade", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    //public static final Item ARROW_HEAD = registerItem("arrow_head", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    public static final Item AXE_HEAD = registerItem("axe_head", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    public static final Item PICKAXE_HEAD = registerItem("pickaxe_head", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    public static final Item SHOVEL_HEAD = registerItem("shovel_head", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    public static final Item BINDING = registerItem("binding", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    //public static final Item BOWSTRING = registerItem("bowstring", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    //public static final Item FLETCHLING = registerItem("fletchling", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    //public static final Item LEAF = registerItem("leaf", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    //public static final Item SHAFT = registerItem("shaft", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
-    //public static final Item STOCK = registerItem("stock", new Item(new FabricItemSettings().group(ModItemGroup.THECAVEMANSTOOLS)));
+    //public static final Item BOW_HANDLE = registerItem("bow_handle", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
+    public static final Item LONG_HANDLE = registerItem("long_handle", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
+    public static final Item SHORT_HANDLE = registerItem("short_handle", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
+    //public static final Item ARROW_HEAD = registerItem("arrow_head", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
+    public static final Item AXE_HEAD = registerItem("axe_head", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
+    public static final Item PICKAXE_HEAD = registerItem("pickaxe_head", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
+    public static final Item SHOVEL_HEAD = registerItem("shovel_head", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
+    public static final Item CORD = registerItem("cord", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
+    public static final Item BINDING = registerItem("binding", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
+    public static final Item BOW_HANDLE = registerItem("bow_handle", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
+    public static final Item BOWSTRING = registerItem("bowstring", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
+    //public static final Item FLETCHLING = registerItem("fletchling", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
+    public static final Item LEAF = registerItem("leaf", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
+    //public static final Item SHAFT = registerItem("shaft", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
+    //public static final Item STOCK = registerItem("stock", new Item(new FabricItemSettings().group(ModItemGroup.TCT)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TheCavemansTools.MODID, name), item);

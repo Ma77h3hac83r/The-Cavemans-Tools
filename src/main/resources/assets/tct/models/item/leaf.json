@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-	"layer0": "tct:item/short_blade"
+	"layer0": "tct:item/leaf"
   }
 }

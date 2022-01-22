@@ -1,9 +1,5 @@
-# Fabric Example Mod
+![Version 0.0.1](https://img.shields.io/badge/Mod%20Version-0.0.1-lightgrey?style=for-the-badge&logo=appveyor) ![MC 1.18.1](https://img.shields.io/badge/MC-1.18.1-green?style=for-the-badge&logo=appveyor)
+<br><br><br>
+![](src/main/resources/assets/tct/The-Cavemans-Tools.png)
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Requires Fabric API
