@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"Y Y",
+	"YYY",
+	"YXY"
+  ],
+  "key": {
+	"Y": {
+	  "item": "minecraft:cobblestone"
+	}
+  },
+  "X": {
+	"item": "minecraft:coal_block"
+  },
+  "result": {
+	"item": "tct:melter"
+  }
+}

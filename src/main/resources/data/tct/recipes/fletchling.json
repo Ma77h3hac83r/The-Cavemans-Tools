@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"XY"
+  ],
+  "key": {
+	"Y": {
+	  "item": "minecraft:feather"
+	},
+	"X": {
+	  "item": "tct:dagger"
+	}
+  },
+  "key": {
+	"Y": {
+	  "item": "tct:leaf"
+	},
+	"X": {
+	  "item": "tct:dagger"
+	}
+  },
+  "result": {
+	"item": "tct:fletchling"
+  }
+}

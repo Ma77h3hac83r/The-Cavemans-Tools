@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Z",
+    "Y",
+    "X"
+  ],
+  "key": {
+    "Z": {
+      "item": "tct:arrow_head"
+    },
+    "Y": {
+      "item": "tct:shaft"
+    },
+    "X": {
+      "item": "tct:fletchling"
+    }
+  },
+  "result": {
+    "item": "minecraft:arrow",
+    "count": 4
+  }
+}

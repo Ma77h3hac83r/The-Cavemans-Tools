@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"YYY",
+	"X X"
+  ],
+  "key": {
+	"Y": {
+	  "item": "minecraft:iron_ingot"
+	}
+  },
+  "X": {
+	"item": "minecraft:stone"
+  },
+  "result": {
+	"item": "tct:tool_forge"
+  }
+}

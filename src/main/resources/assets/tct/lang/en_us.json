@@ -23,6 +23,9 @@
   "item.tct.shaft": "Shaft",
   "item.tct.stock": "Stock",
 
+  "block.tct.melter": "Melter",
+  "block.tct.tool_forge": "Tool Forge",
+
   "itemGroup.tct.tct": "The Caveman's Tools"
 
 }

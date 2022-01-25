@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"XY"
+  ],
+  "key": {
+	"Y": {
+	  "item": "minecraft:stick"
+	},
+	"X": {
+	  "item": "tct:dagger"
+	}
+  },
+  "result": {
+	"item": "tct:shaft"
+  }
+}
