@@ -23,9 +23,22 @@
   "item.tct.shaft": "Shaft",
   "item.tct.stock": "Stock",
 
+  "item.tct.cast_blank": "Blank Cast",
+  "item.tct.cast_long_handle": "Long Handle Cast",
+  "item.tct.cast_short_handle": "Short Handle Cast",
+  "item.tct.cast_arrow_head": "Arrow Head Cast",
+  "item.tct.cast_axe_head": "Axe Head Cast",
+  "item.tct.cast_pickaxe_head": "Pickaxe Head Cast",
+  "item.tct.cast_shovel_head": "Shovel Head Cast",
+  "item.tct.cast_shaft": "Shaft Cast",
+
+  "item.tct.crucible": "Crucible",
+  "item.tct.crucible_copper": "Crucible of Molten Copper",
+  "item.tct.crucible_iron": "Crucible of Molten Iron",
+
   "block.tct.melter": "Melter",
   "block.tct.tool_forge": "Tool Forge",
 
-  "itemGroup.tct.tct": "The Caveman's Tools"
+  "itemGroup.tct.thecavemanstools": "The Caveman's Tools"
 
 }

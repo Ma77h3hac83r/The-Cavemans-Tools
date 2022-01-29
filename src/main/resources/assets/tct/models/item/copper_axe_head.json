@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+	"layer0": "tct:item/copper_axe_head"
+
+  }
+}

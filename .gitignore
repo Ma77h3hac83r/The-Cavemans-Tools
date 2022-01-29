@@ -33,9 +33,6 @@ bin/
 run/
 
 # images
-*.png
-*.jpg
-*.jpeg
 
 # textures
 

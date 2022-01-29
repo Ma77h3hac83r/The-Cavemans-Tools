@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "X X",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "tct:crucible",
+    "count": 4
+  }
+}
